@@ -4,7 +4,10 @@ def  contar_vocales(frase):
     print ("Cantidad de I´s en la frase:", frase.count('i'))
     print ("Cantidad de O´s en la frase:", frase.count('o'))
     print ("Cantidad de U´s en la frase:", frase.count('u'))
+    print ("Cantidad de U´s en la frase:", frase.count('u'))
 
 frase = str(input("Inserte Frase: "))
 frase = frase.lower()
 contar_vocales(frase)
+
+
